@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="it1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Model/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/it1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/it1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`sdl-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+		</Linker>
+		<Unit filename="Console.cpp" />
+		<Unit filename="Console.h" />
+		<Unit filename="Model/C3f.cpp" />
+		<Unit filename="Model/C3f.h" />
+		<Unit filename="Model/Cube.cpp" />
+		<Unit filename="Model/Cube.h" />
+		<Unit filename="Model/Grass.cpp" />
+		<Unit filename="Model/Grass.h" />
+		<Unit filename="Model/Obj.cpp" />
+		<Unit filename="Model/Obj.h" />
+		<Unit filename="Model/Point.cpp" />
+		<Unit filename="Model/Point.h" />
+		<Unit filename="Model/Pot" />
+		<Unit filename="Model/Pot.cpp" />
+		<Unit filename="Model/Pot.h" />
+		<Unit filename="Model/Sand.cpp" />
+		<Unit filename="Model/Sand.h" />
+		<Unit filename="Model/Water.cpp" />
+		<Unit filename="Model/Water.h" />
+		<Unit filename="Model/test.obj" />
+		<Unit filename="Obj.h">
+			<Option virtualFolder="Model/" />
+		</Unit>
+		<Unit filename="ObjGoxel.h">
+			<Option virtualFolder="Model/" />
+		</Unit>
+		<Unit filename="Tools/MapEditor.cpp" />
+		<Unit filename="Tools/MapEditor.h" />
+		<Unit filename="Tools/TextDraw.h" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
