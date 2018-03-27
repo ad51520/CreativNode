@@ -111,8 +111,8 @@ int main(int argc, char *argv[])
 
 
 void mapDisplay(vector<Cube*> v,double scX,double scY, int frame , int text){
-    for(Cube* c : v){ //prend toutes les valeurs de la liste
-        c->view(scX,scY,frame,text);
+    for(unsigned i = 0 ; i < v.size() ; i++){ //prend toutes les valeurs de la liste
+        v.at(i)->view(scX,scY,frame,text);
     }
 }
 
